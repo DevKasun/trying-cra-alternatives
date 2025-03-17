@@ -9,7 +9,7 @@ const App: Component = () => {
       <header>
         <Navbar />
       </header>
-      <main>
+      <main class="container mx-auto p-4">
         <AppRouter />
       </main>
     </AppLayout>

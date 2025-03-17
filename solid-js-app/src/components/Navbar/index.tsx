@@ -3,19 +3,31 @@ import logo from "../../logo.svg";
 
 const Navbar: Component = () => {
   return (
-    <nav>
+    <nav class="container mx-auto p-4 flex items-center justify-between">
       <a href="/">
-        <img src={logo} class="w-8" alt="Logo" />
+        <img src={logo} class="w-12" alt="Logo" />
       </a>
-      <ul>
+      <ul class="flex items-center gap-4">
         <li>
-          <a href="/">Home</a>
+          <a href="/" class="text-blue-800 hover:text-blue-400 hover:underline">
+            Home
+          </a>
         </li>
         <li>
-          <a href="/about">About</a>
+          <a
+            href="/about"
+            class="text-blue-800 hover:text-blue-400 hover:underline"
+          >
+            About
+          </a>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+          <a
+            href="/contact"
+            class="text-blue-800 hover:text-blue-400 hover:underline"
+          >
+            Contact
+          </a>
         </li>
       </ul>
     </nav>
