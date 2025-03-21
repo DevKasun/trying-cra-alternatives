@@ -14,7 +14,7 @@ export function useAPI<T>(
 
     try {
       const result = await fetcher();
-      setData(result);
+      setData(() => result as Exclude<T, Function>);
     } catch (err) {
       setError(err instanceof Error ? err.message : "An error occurred");
     } finally {
