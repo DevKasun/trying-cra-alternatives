@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with TypeScript",
+    "content": "TypeScript is a strongly typed programming language that builds on JavaScript. In this post, we'll cover the basics of TypeScript and how to set up your first project.",
+    "created_at": "2023-01-15T08:30:00Z"
+  },
+  {
+    "id": 2,
+    "title": "React Router Fundamentals",
+    "content": "React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.",
+    "created_at": "2023-02-22T14:45:00Z"
+  },
+  {
+    "id": 3,
+    "title": "State Management in React",
+    "content": "Managing state is one of the hardest parts of any application. This post explores various state management solutions in React including Context API, Redux, and Zustand.",
+    "created_at": "2023-03-10T11:20:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Building REST APIs with Express",
+    "content": "Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. In this tutorial, we'll build a RESTful API using Express and TypeScript.",
+    "created_at": "2023-04-05T16:15:00Z"
+  },
+  {
+    "id": 5,
+    "title": "CSS-in-JS Solutions Compared",
+    "content": "There are many ways to style React components. In this post, we compare popular CSS-in-JS libraries like styled-components, emotion, and tailwind CSS to help you choose the right one for your project.",
+    "created_at": "2023-05-18T09:40:00Z"
+  }
+];
